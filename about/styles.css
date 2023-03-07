@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: black;
+  color: azure;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+}
+h1 {
+  text-align: center;
+  font-size: 60px;
+  margin-top: 60px;
+}
+h3 {
+  text-align: center;
+  font-style: italic;
+  font-size: 25px;
+  margin-top: 45px;
+}
+p {
+  text-align: center;
+  font-size: 23px;
+  margin-top: 35px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  font-size: 100px;
+}
+div a {
+  margin: 0 5%;
+}
+div a:hover {
+  text-shadow: 0px 0px 25px rgba(240, 237, 71, 0.753);
+}
+.fa-twitter {
+  color: rgb(100, 100, 247);
+}
+.fa-twitter:hover {
+  color: azure;
+}
+.fa-linkedin {
+  color: rgb(14, 14, 165);
+}
+.fa-linkedin:hover {
+  color: azure;
+}
+.fa-github {
+  color: rgb(252, 252, 252);
+}
+.fa-github:hover {
+  color: rgb(253, 255, 255);
+}
+
+#back {
+  margin-left: 15px;
+  border: 1px solid white;
+  background-color: rgb(0, 0, 0);
+  margin-top: 10px;
+  border-radius: 5px;
+  padding: 7px 10px;
+}
+#back a {
+  text-decoration: none;
+  color: azure;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 15px;
+}
+#back:hover {
+  background-color: rgba(70, 67, 67);
+}
+@media only screen and (max-width: 575px) {
+  h1 {
+    font-size: 40px;
+  }
+  h3 {
+    font-size: 21px;
+    margin: 45px 10px;
+  }
+  p {
+    font-size: 19px;
+  }
+  div {
+    flex-direction: column;
+    font-size: 70px;
+  }
+}
+
+@media only screen and (max-height: 705px) {
+  h1 {
+    font-size: 40px;
+  }
+  h3 {
+    font-size: 21px;
+    margin: 45px 10px;
+  }
+  p {
+    font-size: 19px;
+  }
+  div {
+    flex-direction: column;
+    font-size: 50px;
+    margin-top: 10px;
+  }
+}
